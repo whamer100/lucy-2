@@ -1,0 +1,33 @@
+{
+  "name": "lucy-2",
+  "version": "2.0.0",
+  "description": "lucy api 2.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --skipLibCheck && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whamer100/lucy-2.git"
+  },
+  "author": "whamer100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whamer100/lucy-2/issues"
+  },
+  "homepage": "https://github.com/whamer100/lucy-2#readme",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "@types/node-fetch": "^2.5.3",
+    "@types/typescript": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
