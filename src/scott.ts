@@ -13,5 +13,5 @@ const correct = (s: string) => {
 }
 
 export default async (data: string) => {
-  const newdata = correct(data)
+  return correct(data)
 }
