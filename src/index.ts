@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express()
-const port = process.env.PORT!
+const port = process.env.PORT || 6969
 import dataHandler from "./scott"
 
 const stwHandler = (data: string) => {
