@@ -6,10 +6,10 @@ const correct = (s: string) => {
   for (const word in badwords) {
     if (ns.endsWith(word)) {
       const news = ns.substring(0, s.length - word.length)
-      return `${news.trim} - Scott The Woz`
+      return `${news.trim()} - Scott The Woz`
     }
   }
-  return `${ns.trim} - Scott The Woz`
+  return `${ns.trim()} - Scott The Woz`
 }
 
 export default async (data: string) => {
