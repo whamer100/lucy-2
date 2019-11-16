@@ -9,6 +9,7 @@ const correct = (s: string) => {
       return `${news.trim} - Scott The Woz`
     }
   }
+  return `${ns.trim} - Scott The Woz`
 }
 
 export default async (data: string) => {
